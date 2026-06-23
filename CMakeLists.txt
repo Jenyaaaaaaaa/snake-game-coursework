@@ -8,7 +8,6 @@ find_package(Qt6 REQUIRED COMPONENTS Quick Multimedia)
 
 qt_standard_project_setup(REQUIRES 6.10)
 
-# Автоматично компілюємо resources.qrc
 set(CMAKE_AUTORCC ON)
 
 qt_add_executable(appSnake
